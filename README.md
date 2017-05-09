@@ -1,7 +1,7 @@
 # Validation 
 [ ![Download](https://api.bintray.com/packages/daniftodi/maven/validation/images/download.svg?version=0.9.3) ](https://bintray.com/daniftodi/maven/validation/0.9.3/link)
 
-A set of annotations to use for TextViews validation on Android
+A set of useful annotations to use for TextViews validation in Android projects
 
 ![Logo](app/src/main/res/drawable/logo.png)
 
@@ -9,9 +9,20 @@ Field validators for Android TextViews which uses annotation to generate boilerp
 
 Installation
 ------
+Gradle
 ```java
 compile 'com.dan.iftodi.validation:validation:0.9.3'
 ```
+Maven
+```xml
+<dependency>
+  <groupId>com.dan.iftodi.validation</groupId>
+  <artifactId>validation</artifactId>
+  <version>0.9.3</version>
+  <type>pom</type>
+</dependency>
+```
+
 Example
 ------
 ```java
